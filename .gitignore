@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Model faylları — böyük fayllar
+models/
+*.pt
+*.pth
+*.engine
+*.onnx
+
+# Face crop-lar — şəxsi məlumat
+faces/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
