@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────
+# QEYD: PyTorch ayrıca yüklənməlidir:
+# pip install torch torchvision torchaudio \
+#     --index-url https://download.pytorch.org/whl/cu124
+#
+# ZED SDK ayrıca quraşdırılmalıdır:
+# https://www.stereolabs.com/developers/release
+# pyzed ZED SDK quraşdırıldıqdan sonra avtomatik əlçatan olur
+# ─────────────────────────────────────────
+
+# Core
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Detection
+retinaface-pytorch>=0.0.8
+
+# Tracking
+ultralytics>=8.0.0
+scipy>=1.10.0
+filterpy>=1.4.5
+lapx>=0.5.2
+
+# Utilities
+Pillow>=9.0.0
